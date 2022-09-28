@@ -1,0 +1,42 @@
+.hourly_timeline {
+  max-width: 790px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+.hourly_timeline .signal-area {
+  border-right-width: 1px;
+  border-color: white;
+}
+
+.hourly_timeline .signal-area:first-child {
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+.hourly_timeline .signal-area {
+  height: 30px;
+}
+.flex-1 {
+  flex: 1 1 0%;
+}
+.border-b {
+  border-bottom-width: 1px;
+}
+.border-t {
+  border-top-width: 1px;
+}
+.bg-green {
+  background-color: #02f0c6;
+  background-color: rgba(2, 240, 198, 1);
+}
+.hourly_timeline .signal-area:last-child {
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  border: 0 solid;
+}
