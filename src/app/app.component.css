@@ -28,7 +28,6 @@
 }
 .bg-green {
   background-color: #02f0c6;
-  background-color: rgba(2, 240, 198, 1);
 }
 .hourly_timeline .signal-area:last-child {
   border-top-right-radius: 60px;
@@ -39,4 +38,18 @@
 :before {
   box-sizing: border-box;
   border: 0 solid;
+}
+.hourly_timeline .signal-area:nth-child(4n + 2) .text-signal-area,
+.hourly_timeline .signal-area:nth-child(4n + 3) .text-signal-area,
+.hourly_timeline .signal-area:nth-child(4n + 4) .text-signal-area {
+  display: none;
+}
+.hourly_timeline .signal-area .text-signal-area {
+  bottom: 880px;
+}
+.absolute {
+  position: absolute;
+}
+.text-12 {
+  font-size: 12px;
 }
