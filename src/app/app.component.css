@@ -33,23 +33,30 @@
   border-top-right-radius: 60px;
   border-bottom-right-radius: 60px;
 }
-*,
-:after,
-:before {
-  box-sizing: border-box;
-  border: 0 solid;
+div {
+  display: block;
 }
 .hourly_timeline .signal-area:nth-child(4n + 2) .text-signal-area,
 .hourly_timeline .signal-area:nth-child(4n + 3) .text-signal-area,
 .hourly_timeline .signal-area:nth-child(4n + 4) .text-signal-area {
   display: none;
 }
+
+.hourly_timeline .signal-area:not(:last-child) .text-signal-area {
+  left: -8px;
+}
 .hourly_timeline .signal-area .text-signal-area {
-  bottom: 880px;
+  bottom: -25px;
 }
 .absolute {
   position: absolute;
 }
 .text-12 {
   font-size: 12px;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  border: 0 solid;
 }
