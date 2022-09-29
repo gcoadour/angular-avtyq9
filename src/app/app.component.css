@@ -33,9 +33,7 @@
   border-top-right-radius: 60px;
   border-bottom-right-radius: 60px;
 }
-div {
-  display: block;
-}
+
 .hourly_timeline .signal-area:nth-child(4n + 2) .text-signal-area,
 .hourly_timeline .signal-area:nth-child(4n + 3) .text-signal-area,
 .hourly_timeline .signal-area:nth-child(4n + 4) .text-signal-area {
@@ -46,13 +44,16 @@ div {
   left: -8px;
 }
 .hourly_timeline .signal-area .text-signal-area {
-  bottom: -25px;
+  top: 30px;
 }
 .absolute {
-  position: absolute;
+  position: relative;
 }
 .text-12 {
   font-size: 12px;
+}
+div {
+  display: block;
 }
 *,
 :after,
