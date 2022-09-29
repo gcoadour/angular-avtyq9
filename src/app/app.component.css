@@ -6,7 +6,7 @@
   display: flex;
 }
 .hourly_timeline .signal-area {
-  border-right-width: 1px;
+  border-right-width: 2px;
   border-color: white;
 }
 
